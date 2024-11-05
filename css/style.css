@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+#headerPart{
+    padding: 35px 0;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.headerFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu{
+    padding-top: 12px;
+}
+.menu ul li a{
+    padding: 0 38px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+.icon{
+    padding-top: 12px;
+}
+.icon i{
+    padding: 0 23px;
+}
+#bannerPart{
+    background: url(../images/scandinavian-interior-mockup-wall-decal-background\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 155px;
+    padding-bottom: 125px;
+}
+.bannerFlex{
+    display: flex;
+}
+.bannerLeft{
+    width: 50%;
+}
+.bannerRight{
+    width: 50%;
+    padding: 67px 45px;
+    background: #FFF3E3;
+    border-radius: 10px
+}
+.bannerRight h4
+{    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+    font-weight: 600;
+}
+.bannerRight h1
+{   padding-right: 20px;
+    font-size: 52px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #B88E2F;
+    line-height: 65px;
+    padding-right: 146px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.bannerRight p
+{   font-weight: 500;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+    line-height: 24px;
+    padding-right: 89px;
+    padding-bottom: 20px;
+}
+.bannerRight a
+{   font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    background:  #B88E2F;
+    padding: 30px 70px;
+}
