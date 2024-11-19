@@ -214,6 +214,9 @@ width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
 }
 .productOverlay a{
     padding: 18px 30px;
@@ -251,6 +254,9 @@ width: 100%;
     right: 20px;
     top: 20px;
     color: #FFFFFF;
+    transition: 0.4s;
+    visibility: visible;
+    opacity: 1;
 }
 .productBadge4 span{
     position: absolute;
@@ -273,8 +279,116 @@ width: 100%;
     right: 20px;
     top: 20px;
     color: #FFFFFF;
+    transition: 0.4s;
+    visibility: visible;
+    opacity: 1;
 }
 #productPart2{
     padding-top: 0px;
     padding-bottom: 60px;
+}
+.productItem:hover .productOverlay{
+    visibility: visible;
+    opacity: 1;
+}
+.productItem:hover .productBadge3 {
+    visibility: hidden;
+    opacity: 0;
+} 
+.productItem:hover .productBadge4 {
+    visibility: hidden;
+    opacity: 0;
+} 
+#inspirationPart{
+    padding: 100px 0;
+    background: #FCF8F3;
+}
+.inspirationPartItem{
+    width: 32%;
+}
+.inspirationPartFlex{
+    justify-content: space-between;
+    display: flex;
+}
+.inspirationPartItem h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 0px;
+    padding-top: 144px;
+    padding-bottom: 30px;
+}
+.inspirationPartItem p{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.inspirationPartItem a
+{   font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    background:  #B88E2F;
+    padding: 13px 27px;
+}
+.inspirationPartItemText{
+    width: 217px;
+    height: 130px;
+    background: #FFFFFF;
+    opacity: 72%;
+    top: 50%;
+    left: 50%;
+    transform: translate(8%,-137%);
+}
+
+
+.inspirationPartItemText p{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #616161;
+    padding-left: 20px;
+}
+.inspirationPartItemText h3{
+    font-size: 28px;
+    font-weight:600;
+    line-height: 120%;
+    padding-left: 20px;
+}
+.inspirationItemImg{
+    position: relative;
+}
+.box{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    background: #B88E2F;
+    color:#FFFFFF;
+    position: relative;
+    left: 235px;
+    bottom: 227px;
+}
+.box i{
+padding-left: 30%;
+padding-top: 30%;
+font-size: 24px;
+}
+.dot{
+    height: 27px;
+    width: 27px;
+    border: 1px solid #B88E2F;
+    border-radius: 50%;
+    margin-top: 30px;
+    background: #FFFFFF;
+    position: relative;
+
+}
+.dot1{
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    background: #B88E2F;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
